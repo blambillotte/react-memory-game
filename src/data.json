@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "Pint",
+    "image": "/images/pint.svg"
+  },
+  {
+    "id": 2,
+    "name": "Pineapple",
+    "image": "/images/pineapple.svg"
+  },
+  {
+    "id": 3,
+    "name": "Cheese",
+    "image": "/images/cheese.svg"
+  },
+  {
+    "id": 4,
+    "name": "Whisky",
+    "image": "/images/glass.svg"
+  },
+  {
+    "id": 5,
+    "name": "Hamburguer",
+    "image": "/images/hamburguer.svg"
+  },
+  {
+    "id": 6,
+    "name": "Doug Funnie",
+    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
+    "occupation": "Student",
+    "location": "Bluffington"
+  },
+  {
+    "id": 7,
+    "name": "Bugs Bunny",
+    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
+    "occupation": "Looney Toon",
+    "location": "A Rabbit Burrow"
+  },
+  {
+    "id": 8,
+    "name": "Johnny Bravo",
+    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
+    "occupation": "Ladies Man",
+    "location": "Aron City"
+  },
+  {
+    "id": 9,
+    "name": "Tommy Pickles",
+    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
+    "occupation": "Adventurer",
+    "location": "California"
+  }
+]
