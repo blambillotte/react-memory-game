@@ -2,13 +2,14 @@ import React, { Component } from 'react';
 import FriendCard from './components/FriendCard/FriendCard';
 import Wrapper from './components/Wrapper/Wrapper';
 import Title from './components/Title/Title';
+import Header from './components/Header/header';
 import data from './data.json';
 import './App.css';
 
 class App extends Component {
-  // Setting this.state.friends to the friends json array
   state = {
-    data
+    data,
+    score: 0
   };
 
   // removeFriend = id => {
@@ -22,6 +23,7 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
+        <Header score={this.state.score}/>
         <Title>Guessing Game</Title>
         {this.state.data.map(friend => (
           <FriendCard
