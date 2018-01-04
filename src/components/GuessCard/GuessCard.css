@@ -9,6 +9,7 @@
   box-shadow: 0 2px 9px 1px #999;
   background:#6CADDC;
   transition: .3s ease-in-out;
+  display: inline-block;
 }
 
 .card:hover {

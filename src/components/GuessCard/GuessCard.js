@@ -1,8 +1,10 @@
 import React from 'react';
-import './FriendCard.css';
+import './GuessCard.css';
 
-const FriendCard = props => (
-  <div className='card'>
+const assignRandom = () => Math.floor(Math.random() * 3);
+
+const GuessCard = props => (
+  <div className='card' data-random={assignRandom()}>
     <div className='img-container'>
       <img alt={props.name} src={props.image} />
     </div>
@@ -13,4 +15,4 @@ const FriendCard = props => (
   </div>
 );
 
-export default FriendCard;
+export default GuessCard;

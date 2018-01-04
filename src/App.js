@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import FriendCard from './components/FriendCard/FriendCard';
 import Wrapper from './components/Wrapper/Wrapper';
 import Title from './components/Title/Title';
 import Header from './components/Header/header';
+import CardContainer from './components/CardContainer/container';
 import data from './data.json';
 import './App.css';
 
@@ -25,17 +25,7 @@ class App extends Component {
       <Wrapper>
         <Header score={this.state.score}/>
         <Title>Guessing Game</Title>
-        {this.state.data.map(friend => (
-          <FriendCard
-            removeFriend={this.removeFriend}
-            id={friend.id}
-            key={friend.id}
-            name={friend.name}
-            image={friend.image}
-            occupation={friend.occupation}
-            location={friend.location}
-          />
-        ))}
+        <CardContainer data={this.state.data}/>
       </Wrapper>
     );
   }
