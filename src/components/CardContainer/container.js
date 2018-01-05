@@ -6,15 +6,15 @@ const Container = props => {
 
   return (
     <div className="container">
-      {props.data.map(friend => (
+      {props.data.map(card => (
         <GuessCard
           removeFriend={this.removeFriend}
-          id={friend.id}
-          key={friend.id}
-          name={friend.name}
-          image={friend.image}
-          occupation={friend.occupation}
-          location={friend.location}
+          id={card.id}
+          key={card.id}
+          name={card.name}
+          image={card.image}
+          occupation={card.occupation}
+          location={card.location}
         />
       ))}
     </div>
